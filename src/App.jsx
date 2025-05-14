@@ -24,7 +24,7 @@ function App() {
     
     setPassword(pass);
 
-  }, [length, numberAllowed, charAllowed])
+  }, [length, numberAllowed, charAllowed, setPassword])
 
   //function for copy button
   const handleCopy = useCallback(() => {
